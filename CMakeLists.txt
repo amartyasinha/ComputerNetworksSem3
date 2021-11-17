@@ -3,4 +3,12 @@ project(ComputerNetworksSem3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CRC CRC.c)
+add_executable(LabWork1_CRC LabWork1_CRC.c)
+
+add_executable(LabWork2_StopAndWait LabWork2_StopAndWait.cpp)
+add_executable(LabWork3_GoBackN LabWork3_GoBackN.cpp)
+add_executable(LabWork4_SelectiveRepeat LabWork4_SelectiveRepeat.cpp)
+add_executable(LabWork5_DistanceVector LabWork5_DistanceVector.cpp)
+add_executable(LabWork6_Dijkstra LabWork6_Dijkstra.cpp)
+add_executable(LabWork7_HammingCode LabWork7_HammingCode.cpp)
+add_executable(LabWork8_IPAddress LabWork8_IPAddress.cpp)
